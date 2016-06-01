@@ -6,16 +6,41 @@
   </head>
 
   <body>
-    <div id="name"><h1>Yifan Wu</h1></div>
+    <div id="name"><h1>{ Yifan, Wu }</h1></div>
     <img id="picture" src="assets/yifan.jpg" alt="Yifan Wu" width="200px">
     <div id="bio"><p>I am a first year PhD student at UC berkeley working in data systems, advised by <a href="http://db.cs.berkeley.edu/jmh/">Prof. Joe Hellerstein</a>. I received my A.B. in Computer Science from Harvard College in 2014. <a href="assets/yifanwu_cv.pdf">Curriculum Vitae</a>.</p></div>
-    <div id="more"><p>Currently, I'm working with Joe and <a href="http://www.cs.columbia.edu/~ewu/">Eugene</a> on interactive visualization systems, exploring data-centric programming models related to <a href='http://bloom-lang.net/'>bloom</a> and SQL. Recently, we !</p></div>
+    <div id="more"><p>Currently, I'm working with Joe and <a
+    href="http://www.cs.columbia.edu/~ewu/">Eugene</a> on interactive visualization systems,
+    exploring data-centric programming models related to <a href='http://bloom-lang.net/'>Bloom</a>
+    and SQL. </p>
+    <p>Recently, we investigated consistency in the interactive visualization context, and how a declarative
+    visual interaction language grounded in the relational model could help deal with the problem.
+    The <a href="assets/devil.pdf">paper is here</a>, and I will be giving a short talk at <a href="http://hilda.io/2016/">HILDA</a> Jun 2016
+    and another at <a href="http://www.thestrangeloop.com/">Strange Loop</a> Sept 2016. </p>
 
-    <div id="contact"><p>Meanwhile, you could checkout my <a href="http://bit.ly/yifanisms">blog</a>, email me at firstnamelastname@berkeley.edu, or find me on <a href="https://twitter.com/yifanwu">twitter</a>; I also take <a href="https://www.behance.net/yifanwu">pictures</a>.</p></div>
+    <p>We are currently working on making the language real, and thinking of ways to make it
+    not only deal with consistency issues but also execute fast and easy to program ---
+    we hope to have the prototype working summer 2016; stay tuned! Another project we are exploring
+    is automatically generating interative visualizations based on past SQL queries. We have modeled this as a cool multi-objective graph problem. WIP, stay tuned.
+    </p></div>
+    <div>
+    <p>You could email (firstnamelastname@berkeley.edu) or <a href="https://twitter.com/yifanwu">tweet
+    me </a> to talk about research!</p></div>
 
-
-
+    <div id="contact"><p>I write <a href="http://bit.ly/yifanisms">long</a>, <a
+    href="yifanwu.tumblr.com">short</a>, and <a href="https://twitter.com/yifanwu">140 chars</a>
+    posts. They range from ramblings to grad school epiphanies (moer the former). I also take <a href="https://www.behance.net/yifanwu">pictures</a>.
   <script type="text/javascript" src="assets/custom.js" charset="utf-8"></script>
 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-37249503-2', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 
 </body></html>
