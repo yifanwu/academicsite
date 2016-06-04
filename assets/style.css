@@ -1,6 +1,6 @@
-
+        
 body {
-  font-family: Georgia;
+  font-family: Arial;
   background-color: #E9E9E9;
   padding-left: 5%;
   padding-right: 5%;
@@ -21,6 +21,11 @@ body {
   float:left;
   opacity:0.8;
 }
+        
+        
+        #bio {
+            font-size: 200%;
+        }
 
 p {
   font-size: 20px;
